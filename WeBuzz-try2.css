@@ -1,0 +1,24 @@
+img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    text-align: center;
+    position: absolute;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;   
+}
+
+.card-texts {
+    color: rgb(163, 42, 42);
+    text-align: center;
+    position: absolute;
+    z-index: 9;
+}
+
+.img-set{
+margin: 0 auto;
+width: fit-content;
+} 

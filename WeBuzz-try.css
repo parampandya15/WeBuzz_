@@ -1,0 +1,12 @@
+.boxes .box {
+    width: 1000px;
+    height: 200px;
+    background-color: gray;
+}
+
+.boxes {
+    display: flex;
+    gap: 200px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}

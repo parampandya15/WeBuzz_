@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infinite Horizontal Scrolling Cards</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Hide horizontal overflow */
+    }
+
+    .container-fluid {
+        overflow-x: auto; /* Enable horizontal scrolling */
+        white-space: nowrap; /* Prevent cards from wrapping */
+    }
+
+    .card {
+        width: 200px;
+        display: inline-block;
+        margin-right: 10px; /* Add some space between cards */
+    }
+</style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3 card">
+            <div class="card-body">
+                <h5 class="card-title">Card 1</h5>
+                <p class="card-text">This is a card with some content.</p>
+            </div>
+        </div>
+        <div class="col-md-3 card">
+            <div class="card-body">
+                <h5 class="card-title">Card 2</h5>
+                <p class="card-text">This is another card with some content.</p>
+            </div>
+        </div>
+        <div class="col-md-3 card">
+            <div class="card-body">
+                <h5 class="card-title">Card 3</h5>
+                <p class="card-text">This is yet another card with some content.</p>
+            </div>
+        </div>
+        <!-- Add more cards as needed -->
+    </div>
+</div>
+
+</body>
+</html>
